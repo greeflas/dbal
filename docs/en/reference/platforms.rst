@@ -17,7 +17,7 @@ instance by calling the ``getDatabasePlatform()`` method.
     $platform = $conn->getDatabasePlatform();
 
 Each database driver has a platform associated with it by default.
-Several drivers also share the same platform, for example PDO\_OCI
+Several drivers also share the same platform, for example ``PDO_OCI``
 and OCI8 share the ``OraclePlatform``.
 
 Doctrine provides abstraction for different versions of platforms
